@@ -25,7 +25,7 @@ git add <new_file>
 ```bash
 commit -m "<add an explicit comment of what is the modification to the repository>"
 
-## add the project
+## Just if this is the first time interacting with the repository, add the project
 git remote add origin https://github.com/artfisica/fieldmate.git
 
 ##push to the master
