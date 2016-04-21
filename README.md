@@ -10,18 +10,25 @@ e.g.
 cd $HOME/ATLAS/universidad_host/dataholics/
 ```
 
+Do your addition and/or modifications using a editor, later:
+
 Start git
 ```bash
 git init
 ```
-if it is a new file, do:
+
+if it is a new or existed file, do:
 ```bash
 git add <new_file>
+```
 
 ```bash
-commit -m "first commit"
+commit -m "<add an explicit comment of what is the modification to the repository>"
 
+## add the project
 git remote add origin https://github.com/artfisica/fieldmate.git
+
+##push to the master
 git push -u origin master
 ```
 
